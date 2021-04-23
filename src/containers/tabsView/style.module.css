@@ -1,0 +1,13 @@
+.removeButton {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 24px;
+    height: 24px;
+    border: none;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    cursor: pointer;
+}

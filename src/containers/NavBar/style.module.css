@@ -1,0 +1,46 @@
+.navBar {
+    border-bottom: 2px solid #efefef;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    background-color: #f6f4f7;
+}
+
+.addButton {
+    width: 32px;
+    height: 32px;
+    border: none;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    margin-left: 40px;
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100vw - 300px);
+
+}
+
+.leftButtonGroupWrapper {
+    border-right: 2px solid #efefef;
+    width: 300px;
+}
+
+.leftButtonGroup {
+    margin-left: 25px;
+}
+
+.navRef {
+    width: 32px;
+    height: 32px;
+    margin-left: 10px;
+    padding: 1px;
+    border-radius: 5px;
+}
+
+.dropdownMenu {
+    display: flex;
+}

@@ -1,13 +1,64 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+body, textarea {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+    display: flex;
+    flex-direction: column;
+}
+
+.active > div {
+    background-color: #f7c94f;
+    color: white !important;;
+}
+
+.active > img {
+    background-color: #e0e0e0;
+}
+
+.active > div div span {
+    background-color: #f7c94f;
+    color: white !important;;
+}
+
+a {
+    color: #000 !important;
+    text-decoration: none
+}
+
+.cutText {
+    color: #898989;
+}
+
+textarea::-webkit-scrollbar {
+    width: 4px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background: #efefef;
+    border-radius: 25px;
+}
+
+button:focus {
+    outline: none;
+}
+
+mark {
+    background-color: #fdde9f;
+}
+
+.noteWrapper {
+    display: flex;
+}
+
+.tab-view {
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
 }

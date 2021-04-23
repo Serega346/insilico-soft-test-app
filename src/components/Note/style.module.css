@@ -1,0 +1,26 @@
+.noteContainer {
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60px;
+    width: 280px;
+    margin: 0 5px 0 5px;
+}
+
+.noteTitle {
+    font-weight: bolder;
+    margin-left: 25px;
+}
+
+.noteText {
+    margin-left: 25px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.noteDate {
+    margin-right: 5px;
+}
+

@@ -1,0 +1,46 @@
+.noteContainer {
+    width: 100%;
+}
+
+.noteTitle, .inputTitle {
+    margin: 25px 0 0 50px;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+.noteDate {
+    text-align: center;
+    margin: 20px 0 20px 0;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #898989;
+}
+
+.noteText, .inputText {
+    margin: 25px 0 0 50px;
+    max-width: 70%;
+    white-space: pre-line;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputText {
+    font-size: 1rem;
+    resize: none;
+    letter-spacing: 0;
+}
+
+
+.inputTitle, .inputText {
+    border: none;
+    outline: 0;
+    outline-offset: 0;
+}
+
+.inputText :focus, .inputTitle :focus {
+    outline: 0;
+    outline-offset: 0;
+}
